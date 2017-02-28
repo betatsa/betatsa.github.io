@@ -7048,7 +7048,9 @@ Picker.extend( 'pickadate', DatePicker )
           return true;
         }
 
-
+        $(document).ready(function(){
+             $('.carousel').carousel();
+           });
         // Options
         if (options.full_width) {
           options.dist = 0;
