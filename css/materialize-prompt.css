@@ -18,11 +18,11 @@
 }
 
 .dark-blue {
-  background: #29303f !important;
+  background: #F44336 !important;
 }
 
 .dark-blue-text {
-  color: #29303f;
+  color: #F44336;
 }
 
 .medium-blue {
@@ -1531,7 +1531,7 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: #29303f;
+  background-color: #F44336;
 }
 
 footer.page-footer .footer-copyright {
@@ -2678,14 +2678,6 @@ input[type=range] + .thumb {
 
 nav {
   color: #fff;
-  background-color: #29303f;
-  width: 100%;
-  height: 56px;
-  line-height: 56px;
-}
-
-nav-red {
-  color: #fff;
   background-color: #F44336;
   width: 100%;
   height: 56px;
@@ -3298,7 +3290,7 @@ small {
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
-  color: #29303f;
+  color: #F44336;
   margin-right: 20px;
   transition: color .3s ease;
   text-transform: uppercase;
@@ -4603,7 +4595,7 @@ textarea.materialize-textarea + label:after {
 .input-field input[type=search]:focus + label i,
 .input-field input[type=search]:focus ~ .mdi-navigation-close,
 .input-field input[type=search]:focus ~ .material-icons {
-  color: #29303f;
+  color: #F44336;
 }
 
 .input-field input[type=search] + label {
@@ -5509,7 +5501,7 @@ input[type=range]:focus::-ms-fill-upper {
   line-height: 48px;
   margin: 0 32px 0 0;
   width: 24px;
-  color: #29303f;
+  color: #F44336;
 }
 
 .side-nav .divider {
