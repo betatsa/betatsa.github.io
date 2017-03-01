@@ -14,7 +14,11 @@ if (typeof(jQuery) === 'undefined') {
     jQuery = $;
   }
 }
-;/*
+;
+
+$('.carousel.carousel-slider').carousel({fullWidth: true});
+
+/*
  * jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
  *
  * Uses the built in easing capabilities added In jQuery 1.1
@@ -7050,6 +7054,7 @@ Picker.extend( 'pickadate', DatePicker )
 
         $(document).ready(function(){
              $('.carousel').carousel();
+
            });
         // Options
         if (options.full_width) {
