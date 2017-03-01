@@ -25,7 +25,7 @@
 
 
       <!-- Dropdowns -->
-      <ul id="dropdown1" class="dropdown-content">
+    <!--  <ul id="dropdown1" class="dropdown-content">
         <li><a href="STEM Education/importance.html">Importance</a></li>
         <li class="divider"></li>
         <li><a href="STEM Education/classes.html">Classes</a></li>
@@ -42,18 +42,18 @@
         <li><a href="tsa/leadership.html">Leadership</a></li>
           <li class="divider"></li>
         <li><a href="tsa/community.html">Community Service</a></li>
-      </ul>
+      </ul>-->
 
       <!--nav bar-->
       <nav>
         <div class="nav-wrapper" role="navigation">
           <a href="index.html" class="brand-logo">AUGMENTED REALITY</a>
           <ul class="right hide-on-med-and-down">
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Current Uses<img src="icons/arrow_down.png" alt="arrow_down" style="position:relative;top:12px"></a></li>
+            <!--<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Current Uses<img src="icons/arrow_down.png" alt="arrow_down" style="position:relative;top:12px"></a></li>-->
             <!-- Dropdown Trigger -->
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Future Outlook<img src="icons/arrow_down.png" alt="arrow_down" style="position:relative;top:12px"></a></li>
+            <!--<li><a class="dropdown-button" href="#!" data-activates="dropdown2">Future Outlook<img src="icons/arrow_down.png" alt="arrow_down" style="position:relative;top:12px"></a></li>-->
             <li><a href="about-us.html">About</a></li>
-            <a class="waves-effect waves-light btn" href="prompt.html">BETA TSA</a>
+            <a class="waves-effect waves-light btn" href="index.html">BETA TSA</a>
           </ul>
         </div>
       </nav>
@@ -65,7 +65,114 @@
         </br></br></br></br>
       </div>
 
+      <div class="container">
+        <div class="row">
+          <script>
+            $(document).ready(function(){
+              $('.scrollspy').scrollSpy();
+            });
+          </script>
+          <div class="col s12 m9 l10">
+            <div id="introduction" class="section scrollspy">
+              <em><h5 class="medium-red-text">What is Augmented Reality?</h5></em>
+              <p>By definition, augmented reality is a technology that superimposes a computer-generated image on a user's view of the real world, thus providing a composite view. However, it is so much more than just an image reaching our surroundings; </p>
+            </div>
 
+            <div id="development" class="section scrollspy">
+              <em><h5 class="medium-red-text">History of Augmented Reality</h5></em>
+              <p>Content </p>
+            </div>
+
+            <div id="prosandcons" class="section scrollspy">
+              <em><h5 class="medium-red-text">The Pros and Cons to Augmented Reality</h5></em>
+              <p>Content </p>
+            </div>
+
+            <div id="today" class="section scrollspy">
+              <em><h5 class="medium-red-text">Current Uses of Augmented Reality</h5></em>
+              <p>yooyoyoyo</p>
+              <!-- Modal Trigger -->
+              <a class="modal-trigger waves-effect waves-light btn" href="#construction">Contruction</a>
+              <a class="modal-trigger waves-effect waves-light btn" href="#gps">GPS</a>
+
+              <!-- Modal Structure -->
+              <div id="construction" class="modal modal-fixed-footer">
+                <div class="modal-content">
+                  <script>
+                    $(document).ready(function(){
+                      // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+                      $('.construction').modal();
+                    });
+                  </script>
+                  <h4>Construction</h4>
+                  <p>content yay</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+              </div>
+
+              <div id="gps" class="modal modal-fixed-footer">
+                <div class="modal-content">
+                  <h4>Modal Header</h4>
+                  <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+              </div>
+
+            </div>
+
+            <div id="future" class="section scrollspy">
+              <em><h5 class="medium-red-text">Future Uses of Augmented Reality</h5></em>
+              <p>Future Uses of Augmented R </p>
+            </div>
+          </div>
+          <div class="col hide-on-small-only m3 l2">
+            <ul class="section table-of-contents">
+              <li><a href="#introduction">Introduction</a></li>
+              <li><a href="#development">Development of AR</a></li>
+              <li><a href="#prosandcons">Pros and Cons</a></li>
+              <li><a href="#today">Today's Uses</a></li>
+              <li><a href="#future">Future Uses</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--Footer-->
+          <footer class="page-footer">
+              <div class="container">
+                <div class="row">
+                  <div class="col l6 s12">
+                    <h5 class="white-text">Augmented Reality</h5>
+                    <p class="white-text">This page was created by BETA TSA</p>
+                  </div>
+                  <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                      <li><a class="grey-text text-lighten-3" href="prompt.html">Chapter Website</a></li>
+                      <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/beta_tsa/">Chapter Instagram</a></li>
+                      <li><a class="grey-text text-lighten-3" href="http://materializecss.com/">Framework</a></li>
+                      <li><a class="grey-text text-lighten-3" href="">Citations</a></li>
+                    </ul>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-copyright">
+                <div class="container">
+                © 2017 BETA TSA
+                <a class="grey-text text-lighten-4 right" href="#!">Made with love</a>
+                </div>
+              </div>
+            </footer>
+
+          </body>
+        </html>
 
     </body>
   </html>
