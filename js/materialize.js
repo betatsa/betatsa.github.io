@@ -16,8 +16,6 @@ if (typeof(jQuery) === 'undefined') {
 }
 ;
 
-$('.carousel.carousel-slider').carousel({fullWidth: true});
-
 /*
  * jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
  *
@@ -449,6 +447,7 @@ if ($) {
 
   $(document).ready(function(){
     $('.collapsible').collapsible();
+    $(".dropdown-button").dropdown({hover:false});
   });
 }( jQuery ));;(function ($) {
 
