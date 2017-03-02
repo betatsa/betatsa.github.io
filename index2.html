@@ -13,6 +13,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
       <title>BETA TSA</title>
+
     </head>
 
     <body>
@@ -20,6 +21,24 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.js"></script>
 
+      <!-- Dropdown Structure -->
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+      </ul>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Logo</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+      </nav>
 
       <!-- Dropdowns -->
       <ul id="dropdown1" class="dropdown-content">
@@ -40,63 +59,63 @@
           <li class="divider"></li>
         <li><a href="tsa/community.html">Community Service</a></li>
       </ul>
-      <ul id="dropdown3" class="dropdown-content">
-        <li><a href="STEM Education/importance.html">Importance</a></li>
-        <li class="divider"></li>
-        <li><a href="STEM Education/classes.html">Classes</a></li>
-        <li class="divider"></li>
-        <li><a href="STEM Education/teachers.html">Teachers</a></li>
-          <li class="divider"></li>
-        <li><a href="STEM Education/certifications.html">Certifications</a></li>
-      </ul>
-      <ul id="dropdown4" class="dropdown-content">
-        <li><a href="tsa/about-tsa.html">About TSA</a></li>
-        <li class="divider"></li>
-        <li><a href="tsa/competition.html">Competition</a></li>
-        <li class="divider"></li>
-        <li><a href="tsa/leadership.html">Leadership</a></li>
-          <li class="divider"></li>
-        <li><a href="tsa/community.html">Community Service</a></li>
-      </ul>
 
       <!--nav bar-->
+      <script>
+        $(document).ready(function(){
+          $(".dropdown-button").dropdown({hover:false});
+        });
+      </script>
       <nav>
         <div class="nav-wrapper" role="navigation">
           <a href="index.html" class="brand-logo">BETA TSA</a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Tech & Engineering Education <i class="fa fa-angle-down"></i></a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Tech & Engineering Education<i class="material-icons right">arrow_drop_down</i></a></li>-->
             <!-- Dropdown Trigger -->
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Chapter 513 <i class="fa fa-angle-down"></i></a></li>
+            <!--<li><a class="dropdown-button" href="#!" data-activates="dropdown2">Chapter 513<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a href="about-us.html">About</a></li>
-            <li><a class="waves-effect waves-light btn" href="prompt.html">2017 Prompt</a></li>
-          </ul>
-          <ul class="side-nav" id="mobile-demo">
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown3"><i class="fa fa-angle-down"></i><div class="left">Tech & Engineering Education</div></a></li>
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown4"><i class="fa fa-angle-down"></i><div class="left">Chapter 513</div></a></li>
-            <li><a href="about-us.html">About</a></li>
-            <li><a class="waves-effect waves-light btn" href="prompt.html">2017 Prompt</a></li>
+            <a class="waves-effect waves-light btn" href="prompt.html">2017 Prompt</a>
           </ul>
         </div>
-      </nav>
+      </nav>-->
 
       <!--Part One-->
-    <div class="container-fluid">
-      <img src="img/stpa.jpg" id="head" alt="school">
-      <div style="position:relative;bottom:350px">
+        <script>
+          $(document).ready(function(){
+            $('.carousel.carousel-slider').carousel({fullWidth: true});
+          });
+        </script>
+      <div class="carousel carousel-slider center" data-indicators="true">
+        <div class="carousel-fixed-item center">
+          <a class="btn waves-effect white grey-text darken-text-2">button</a>
+        </div>
+        <div class="carousel-item blue white-text" href="#one!">
+          <h2>First Panel</h2>
+          <p class="white-text">This is your first panel</p>
+        </div>
+        <div class="carousel-item blue white-text" href="#two!">
+          <h2>Second Panel</h2>
+          <p class="white-text">This is your second panel</p>
+        </div>
+    </div>
+
+    <!--<div class="container">
+      </br></br></br></br></br></br></br></br>
       <h1 class="dark-blue-text center"><b>Welcome to BETA TSA</b></h1>
       <h5 class="center-align medium-blue-text">We're Learning to Lead in a Technical World.</h5>
-      </div>
-    </div>
-    
+      <img src="img/stpa.jpg" id="head" alt="school">
+    </div>-->
+
+</br></br></br></br></br></br>
+
     <!--Part Two-->
     <div class="container">
-      <div class="section" style="position:relative;bottom:100px">
+      <div class="section">
+
         <div class="row">
           <div class="col s12 m4">
             <div class="icon-block">
-              <!--<h2 class="center dark-blue-text"><i class="material-icons">settings</i>-->
-              <img class="center-align" src="icons/medal.PNG" alt="medal">
+              <h2 class="center dark-blue-text"><i class="material-icons">settings</i></h2>
               <h5 class="center dark-blue-text">Technology and Engineering Education</h5>
 
               <p class="light dark-blue-text">At BETA, a program called the "Technology Track" is offered. In it, students are able to take classes such as Principles of Information Technology, Civil Engineering, Digital Interactive Media, IB Computer Science, and more. You can learn more about our classes <a href="STEM Education/classes.html">here</a> and our teachers <a href="STEM Education/teachers.html">here.</a></p>
@@ -105,8 +124,7 @@
           <!--Column 2-->
           <div class="col s12 m4">
             <div class="icon-block">
-              <img class="center" src="icons/medal.PNG" alt="medal"> 
-              <!--<h2 class="center dark-blue-text"><i class="material-icons">work</i></h2>-->
+              <h2 class="center dark-blue-text"><i class="material-icons">work</i></h2>
               <h5 class="center dark-blue-text">Competition</h5>
 
               <p class="light dark-blue-text">At BETA TSA, we offer students the opportunity to compete in everything from Coding to Children's Storybook. There's an event for everyone and for all interests, and we're proud of all that our members have accomplished. You can learn more about general TSA <a href="tsa/about-tsa.html">here</a> and more about our chapter in competition <a href="tsa/competition.html">here.</a></p>
@@ -115,9 +133,9 @@
           <!--Column 3-->
           <div class="col s12 m4">
             <div class="icon-block">
-              <!--<h2 class="center dark-blue-text"><i class="material-icons">group</i></h2>-->
-              <img class="center" src="icons/medal.PNG" alt="medal">
+              <h2 class="center dark-blue-text"><i class="material-icons">group</i></h2>
               <h5 class="center dark-blue-text">Growth and Leadership</h5>
+
               <p class="light dark-blue-text">BETA TSA is active in the Rio Grande Valley community, and works to provide opportunities for students to volunteer and take on leadership positions at the regional, state, and national level. You can learn more about our student leaders <a href="tsa/leadership.html">here</a> and our community involvement <a href="tsa/community.html">here.</a></p>
             </div>
           </div>
@@ -145,7 +163,7 @@
         </div>
         <div class="footer-copyright">
           <div class="container">
-          <i class="fa fa-copyright"></i> 2017 BETA TSA
+          © 2017 BETA TSA
           <a class="grey-text text-lighten-4 right" href="#!">Made with love</a>
           </div>
         </div>
