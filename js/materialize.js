@@ -448,6 +448,7 @@ if ($) {
   $(document).ready(function(){
     $('.collapsible').collapsible();
     $(".dropdown-button").dropdown({hover:false});
+    $(".button-collapse").sideNav();
   });
 }( jQuery ));;(function ($) {
 
