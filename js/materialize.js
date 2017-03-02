@@ -448,7 +448,6 @@ if ($) {
   $(document).ready(function(){
     $('.collapsible').collapsible();
     $(".button-collapse").sideNav();
-    $('#education').modal();
   });
 }( jQuery ));;(function ($) {
 
