@@ -447,7 +447,7 @@ if ($) {
 
   $(document).ready(function(){
     $('.collapsible').collapsible();
-    $(".dropdown-button").dropdown({hover:false});
+    $(".dropdown-button").dropdown();
     $(".button-collapse").sideNav();
   });
 }( jQuery ));;(function ($) {
