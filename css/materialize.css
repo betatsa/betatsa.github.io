@@ -3,6 +3,10 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 #head{
   background-image: url('img/stpa.jpg');
