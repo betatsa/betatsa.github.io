@@ -69,9 +69,10 @@
         <div class="row">
           <script>
             $(document).ready(function(){
-              $('.scrollspy').scrollSpy();
+              $('.scrollspy').scrollSpy({scrollOffset:200});
             });
           </script>
+
           <div class="col s12 m9 l10">
             <div id="introduction" class="section scrollspy">
               <em><h5 class="medium-red-text">What is Augmented Reality?</h5></em>
@@ -116,27 +117,72 @@
 			  <p>Should AR continue to be developed, however, the possible benefits are boundless. Already, possible uses to help people with disabilities concerning their interaction with the world around them can be seen, as existing applications to assist blind people by reading printed labels or identifying common objects grow in popularity. In education and research, AR tech can help to provide in-depth visuals that may not otherwise be readily available, especially in diagram-heavy fields like medicine or engineering. In entertainment, there is, of course, an astounding potential in improving the way we consume media, especially concerning video games.</p>
             </div>
 
+            
+			 
+
+
             <div id="today" class="section scrollspy">
               <em><h5 class="medium-red-text">Current Uses of Augmented Reality</h5></em>
               <p>While Augmented Reality may seem to be a very exclusive technology, it's a lot more common than what is typically thought. From everyday uses like GPS, which can superimpose current speed, ETA, and nearby locations over the user's map, to video games, like Pok&#233;mon Go, Augmented Reality technology has played a large role in our every day lives for a long time.</p>
-			  <ul class="collapsible popout" data-collapsible="accordion">
-				<li>
-					<div class="collapsible-header medium-red-text"><i class="fa fa-angle-down"></i><em>Smartphone Applications</em></div>
-					  <div class="collapsible-body"><span><p>Applications like Snapchat allow users to filter their camera's view in real-time, affecting either their general surrounding environment or certain facial features. Some applications also have scanners that allow users to point their phone's camera at an image, such as a movie poster, and watch it come alive on their phone screen.</p></span></div>
-				</li>
-				<li>
-					<div class="collapsible-header medium-red-text"><i class="fa fa-angle-down"></i><em>Video Games</em></div>
-					  <div class="collapsible-body"><span><p>In video games, other than Pok&#233;mon Go, Microsoft Kinect allows the user to work directly with their environment which is displayed on their screen with interactive objects added. The Kinect camera tracks the user's movements in order to determine the way in which the created objects behave. The Nintendo 3DS, similar to the aforementioned smartphone applications, allow users to point the camera at certain cards, resulting in an on-screen animation.</p></span></div>
-				</li>
-				<li>
-					<div class="collapsible-header medium-red-text"><i class="fa fa-angle-down"></i><em>Mass Media</em></div>
-					  <div class="collapsible-body"><span><p>In mass media, televised sports often use Augmented Reality in order to show markers such as lines in a football game or dots in a tennis match to enhance the audience's understanding of what is happening in the game.</p></span></div>
-				</li>
-				<li>
-					<div class="collapsible-header medium-red-text"><i class="fa fa-angle-down"></i><em>Wearable AR Tech</em></div>
-					  <div class="collapsible-body"><span><p>Most recently, wearable AR tech has become more and more popular, especially with the release of Google Glass. Wearable AR tech such as smart glasses allows users to go about their daily life with AR technology enhancing how they interact with their everyday environment without obstructing their ability to interact with said everyday environment.</p></span></div>
-				</li>
-			  </ul>
+			  <!-- Modal Trigger -->
+			  <a class="modal-trigger waves-effect waves-light btn" href="#modal1">Mobile Apps</a>
+
+			  <!-- Modal Structure -->
+			  <div id="modal1" class="modal modal-fixed-footer">
+			    <div class="modal-content">
+			      <h4>Smartphone Apps</h4>
+			      <p><span><p>Applications like Snapchat allow users to filter their camera's view in real-time, affecting either their general surrounding environment or certain facial features. Some applications also have scanners that allow users to point their phone's camera at an image, such as a movie poster, and watch it come alive on their phone screen.</p></span></p>
+			    </div>
+			    <div class="modal-footer">
+			      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Done</a>
+			    </div>
+			  </div>
+			  <!-- Modal Trigger -->
+			  <a class="modal-trigger waves-effect waves-light btn" href="#modal1">Video Games</a>
+
+			  <!-- Modal Structure -->
+			  <div id="modal1" class="modal modal-fixed-footer">
+			    <div class="modal-content">
+			      <h4>Video Games</h4>
+			      <p><span><p>In video games, other than Pok&#233;mon Go, Microsoft Kinect allows the user to work directly with their environment which is displayed on their screen with interactive objects added. The Kinect camera tracks the user's movements in order to determine the way in which the created objects behave. The Nintendo 3DS, similar to the aforementioned smartphone applications, allow users to point the camera at certain cards, resulting in an on-screen animation.</p></span></p>
+			    </div>
+			    <div class="modal-footer">
+			      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Done</a>
+			    </div>
+			  </div>
+			  <!-- Modal Trigger -->
+			  <a class="modal-trigger waves-effect waves-light btn" href="#modal1">Mass Media</a>
+
+			  <!-- Modal Structure -->
+			  <div id="modal1" class="modal modal-fixed-footer">
+			    <div class="modal-content">
+			      <h4>Mass Media</h4>
+			      <p><span><p>In mass media, televised sports often use Augmented Reality in order to show markers such as lines in a football game or dots in a tennis match to enhance the audience's understanding of what is happening in the game.</p></span></p>
+			    </div>
+			    <div class="modal-footer">
+			      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Done</a>
+			    </div>
+			  </div>
+			  
+		      <!-- Modal Trigger -->
+			  <a class="modal-trigger waves-effect waves-light btn" href="#modal1">Wearable Tech</a>
+
+			  <!-- Modal Structure -->
+			  <div id="modal1" class="modal modal-fixed-footer">
+			    <div class="modal-content">
+			      <h4>Wearable Tech</h4>
+			      <p><span><p>Most recently, wearable AR tech has become more and more popular, especially with the release of Google Glass. Wearable AR tech such as smart glasses allows users to go about their daily life with AR technology enhancing how they interact with their everyday environment without obstructing their ability to interact with said everyday environment.</p></span></p>
+			    </div>
+			    <div class="modal-footer">
+			      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Done</a>
+			    </div>
+			  </div>
+			<script>
+			 	$(document).ready(function(){
+				    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+				    $('.modal-trigger').leanModal();
+				  });
+			 </script>
 			  
             </div>
 
