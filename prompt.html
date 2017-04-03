@@ -48,12 +48,17 @@
       <nav>
         <div class="nav-wrapper" role="navigation">
           <a href="prompt.html" class="brand-logo">AUGMENTED REALITY</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
           <ul class="right hide-on-med-and-down">
             <!--<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Current Uses<img src="icons/arrow_down.png" alt="arrow_down" style="position:relative;top:12px"></a></li>-->
             <!-- Dropdown Trigger -->
             <!--<li><a class="dropdown-button" href="#!" data-activates="dropdown2">Future Outlook<img src="icons/arrow_down.png" alt="arrow_down" style="position:relative;top:12px"></a></li>-->
             <li><a href="about-us.html">About</a></li>
             <a class="waves-effect waves-light btn" href="index.html">BETA TSA</a>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li style="text-align:center"><a href="about-us.html">About</a></li>
+            <li><a class="waves-effect waves-light btn" href="index.html">BETA TSA</a></li>
           </ul>
         </div>
       </nav>
@@ -67,11 +72,7 @@
 
       <div class="container">
         <div class="row">
-          <script>
-            $(document).ready(function(){
-              $('.scrollspy').scrollSpy({scrollOffset:200});
-            });
-          </script>
+          
 
           <div class="col s12 m9 l10">
             <div id="introduction" class="section white scrollspy">
@@ -247,15 +248,6 @@
 		      $('.parallax').parallax();
 		    });
 		</script>
-          </div>
-          <div class="col hide-on-small-only m3 l2">
-            <ul class="section table-of-contents">
-              <li><a href="#introduction">Introduction</a></li>
-              <li><a href="#development">Development of AR</a></li>
-              <li><a href="#prosandcons">Pros and Cons</a></li>
-              <li><a href="#today">Today's Uses</a></li>
-              <li><a href="#future">Future Uses</a></li>
-            </ul>
           </div>
         </div>
       </div>
