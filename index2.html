@@ -111,6 +111,15 @@
     <!--Part Two-->
     <div class="container">
       <div class="section">
+<script>
+        var options = [
+          {selector: '.class', offset: 200, callback: customCallbackFunc } },
+          {selector: '.other-class', offset: 200, callback: function() {
+            customCallbackFunc();
+          } },
+        ];
+      </script>
+        Materialize.scrollFire(options);
 
         <div class="row">
           <div class="col s12 m4">
